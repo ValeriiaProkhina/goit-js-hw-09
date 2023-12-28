@@ -25,3 +25,4 @@ formRef.addEventListener('submit', event => {
   localStorage.removeItem(FEEDBACK_STORAGE_KEY);
   formRef.reset();
 });
+console.log(FEEDBACK_STORAGE_KEY);
